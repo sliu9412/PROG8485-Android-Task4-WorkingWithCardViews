@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/CardContainerMargin"
+        app:cardCornerRadius="@dimen/CardContainerCornerRadius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/CardContainerPadding">
+
+            <ImageView
+                android:id="@+id/card_view_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/subway" />
+
+            <TextView
+                android:id="@+id/card_view_title"
+                style="@style/CardFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurant_four_title"
+                android:textSize="@dimen/CardFont.Title" />
+
+            <TextView
+                android:id="@+id/card_view_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/restaurant_four_desc" />
+
+            <TextView
+                android:id="@+id/card_view_rate_message"
+                style="@style/CardFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_text"
+                android:textSize="@dimen/CardFont.Rate"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/card_view_ratingbar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:progressTint="@color/gold" />
+
+                <TextView
+                    android:id="@+id/card_view_rate_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/CardFont.Rate.NumberPadding"
+                    android:text="@string/initial_rate"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/CardFont.Rate.Number"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

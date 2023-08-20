@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="OutsideContainerPadding">20dp</dimen>
+    <dimen name="CardContainerPadding">20dp</dimen>
+    <dimen name="CardContainerMargin">30dp</dimen>
+    <dimen name="CardContainerCornerRadius">20dp</dimen>
+    <dimen name="CardFontPadding">10dp</dimen>
+    <dimen name="CardFont.Title">20sp</dimen>
+    <dimen name="CardFont.Rate">15sp</dimen>
+    <dimen name="CardFont.Rate.Number">15sp</dimen>
+    <dimen name="CardFont.Rate.NumberPadding">10dp</dimen>
+</resources>

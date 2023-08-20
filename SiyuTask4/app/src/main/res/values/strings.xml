@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SiyuTask4</string>
+    <string name="app_title">SLTask4</string>
+    <string name="restaurant_one_title">Burger King</string>
+    <string name="restaurant_two_title">McDownload\'s</string>
+    <string name="restaurant_three_title">Starbucks</string>
+    <string name="restaurant_four_title">Subway</string>
+    <string name="restaurant_five_title">Tim Hortons</string>
+    <string name="restaurant_one_desc">Burger King is a global fast food restaurant chain that specializes in serving flame-grilled burgers. Founded in 1954, Burger King has become one of the most recognizable and widely-known fast food brands in the world.</string>
+    <string name="restaurant_two_desc">McDonald\'s Corporation is an American multinational fast food chain, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.</string>
+    <string name="restaurant_three_desc">Starbucks is a renowned global coffeehouse chain that was founded in 1971 in Seattle, Washington, United States. It has since grown into one of the largest and most recognizable coffeehouse brands in the world.</string>
+    <string name="restaurant_four_desc">Subway is a popular global fast-food restaurant chain specializing in made-to-order sandwiches and salads. Established in 1965, Subway has grown into one of the largest restaurant franchises worldwide.</string>
+    <string name="restaurant_five_desc">Tim Hortons is a popular Canadian fast food restaurant chain known for its coffee, doughnuts, and breakfast items. Established in 1964 by former ice hockey player Tim Horton, the brand has become an iconic part of Canadian culture.</string>
+    <string name="rate_text">Please Rate Us</string>
+    <string name="initial_rate">0.0</string>
+</resources>
